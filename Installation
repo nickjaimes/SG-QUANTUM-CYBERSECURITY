@@ -1,0 +1,9 @@
+# Clone the cyber shield repository
+git clone https://github.com/nicolas-santiago/sg-quantum-cyber-shield.git
+cd sg-quantum-cyber-shield
+
+# Install cybersecurity dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
