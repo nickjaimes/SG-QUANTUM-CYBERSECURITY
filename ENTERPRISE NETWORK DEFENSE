@@ -1,0 +1,4 @@
+from safeway_guardian.examples import enterprise_defense
+
+enterprise_shield = enterprise_defense.EnterpriseCyberShield()
+protection_status = enterprise_shield.protect_corporate_network()
