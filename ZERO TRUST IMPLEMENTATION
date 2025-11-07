@@ -1,0 +1,4 @@
+from safeway_guardian.examples import zero_trust_network
+
+zero_trust = zero_trust_network.ZeroTrustShield()
+zero_trust.implement_micro_segmentation()
