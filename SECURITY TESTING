@@ -1,0 +1,9 @@
+# Run comprehensive security tests
+pytest tests/test_cyber_shield.py
+
+# Test specific defense elements
+pytest tests/test_threat_detection.py
+pytest tests/test_incident_response.py
+
+# Penetration testing integration
+python -m safeway_guardian.testing.pentest_simulation
