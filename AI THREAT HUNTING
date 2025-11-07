@@ -1,0 +1,4 @@
+from safeway_guardian.examples import ai_threat_hunting
+
+threat_hunter = ai_threat_hunting.AIThreatHunter()
+advanced_threats = threat_hunter.hunt_apt_groups()
